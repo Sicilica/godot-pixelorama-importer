@@ -11,6 +11,9 @@ func _get_visible_name() -> String:
 func _get_recognized_extensions() -> PackedStringArray:
   return ["pxo"]
 
+func _get_priority() -> float:
+  return 1.0
+
 func _get_save_extension() -> String:
   return "res"
 

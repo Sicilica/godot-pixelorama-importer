@@ -12,4 +12,4 @@ After trying several other implementations and finding them lacking, I decided t
 
 ## Installation
 
-Add the addon folder from this repo to your project, then enable the plugin in Project Settings > Plugins.
+Add the addon folder from this repo to your project, then enable the plugin in Project Settings.
