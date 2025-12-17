@@ -14,6 +14,13 @@ After trying several other implementations and finding them lacking, I decided t
 
 Add the addon folder from this repo to your project, then enable the plugin in Project Settings > Plugins.
 
+## Usage
+
+Your files should appear in the file viewer inside Godot and be imported automatically.
+
+If you want to change the import settings for a file, select the file and open the Import settings pane.
+(By default, it's a tab in the left side dock, next to the Scene tree view.)
+
 ## FAQ
 
 ### What versions are supported?
