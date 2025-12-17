@@ -2,19 +2,6 @@
 # GitHub: https://github.com/secnot/rectpack
 # License: Apache License 2.0
 
-# online/offline, bin algo, pack algo, sort algo, allow rotation
-# reference uses GuillotineBssfSas without rotations, and otherwise default
-# that means offline mode, bin algo is BBF, sort algo is area
-# 
-# we end up calling PackerBBF and passing it the pack/sort/rotation
-# PackerBBF does nothing but mixes in packer and packerbbfmixin
-# mixin adds an add_rect implementation
-# 
-# anyway, after creating it, we call add_bin to add just 1 bin (with sizes we figured out)
-# then we add_rect for each sprite
-# then we pack
-
-
 const Bin = preload("types/bin.gd")
 const PackingProvider = preload("types/pack_algo.gd")
 const Rect = preload("types/rect.gd")
